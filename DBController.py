@@ -1,4 +1,6 @@
 import psycopg2, psycopg2.extras
+import threading
+from time import sleep
 """
 conn = psycopg2.connect(database='test', user='postgres', password='pass', host='localhost')
 cur = conn.cursor()
@@ -21,6 +23,24 @@ class DBController:
 
     def executeTest(self,configs):
         pass
+
+    def worker(self,config):
+        """thread worker function"""
+        sleep(config.time)
+        print
+        'Worker'
+        return
+
+    def connection(self, config):
+        config.opertation
+        threads = []
+        for i in range(config.connections):
+            t = threading.Thread(target=self.worker(config))
+            threads.append(t)
+            t.start()
+
+
+
 
     def insertUsers(self,user):
         self.cur.callproc("newUser" , (
