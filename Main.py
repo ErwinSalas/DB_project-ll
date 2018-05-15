@@ -1,4 +1,7 @@
 import base64
+
+from Objects import Configs
+
 __author__ = 'Erwin'
 from flask import Flask,request,render_template
 
@@ -15,16 +18,15 @@ def indexPage():
 
 @app.route('/test/config', methods=['POST'])
 def getTestConfigs():
-    id = int(request.form['id'])
-    anim= request.form['animal']
-    med= request.form['medicamento']
-    enf= request.form['enfermedad']
-    dosis= request.form['dosis']
-    pesoMax=request.form['pesoMax']
-    pesoMin=request.form['pesoMin']
+    connections = int(request.form['connections'])
+    time= request.form['time']
+    operation= request.form['operation']
 
-    dos = Dosis(id,anim,enf,med ,pesoMax,pesoMin,dosis)
-    dosisController.update(dos)
-    return mostrarDosis(0)
+
+    conf = Configs(connections,time,operation)
+
+    return
+
+
 if __name__ == '__main__':
     app.run(debug=True)
