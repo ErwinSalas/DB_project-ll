@@ -23,7 +23,6 @@ class DBController:
         pass
 
     def insertUsers(self,user):
-
         self.cur.callproc("newUser" , (
             user.id,
             user.email,
