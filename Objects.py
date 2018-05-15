@@ -6,8 +6,10 @@ class Configs:
         self.operation_number=operation_number
 
 class User:
-    def __init__(self,connections,time,operation):
-        self.opertation=operation
-        self.time = time
-        self.connections=connections
+    def __init__(self,email, psswrd, nombre, apellido1, apellido2):
+        self.email = email
+        self.psswrd = psswrd
+        self.nombre = nombre
+        self.apellido1 = apellido1
+        self.apellido2 = apellido2
 
