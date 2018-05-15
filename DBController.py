@@ -22,8 +22,6 @@ class DBController:
     def executeTest(self,configs):
         pass
 
-    def insert(self, type):
-
     def insertUsers(self,user):
         self.cur.callproc("newUser" , (
             user.id,
