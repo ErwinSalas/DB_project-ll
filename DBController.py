@@ -24,7 +24,7 @@ class DBController:
     def executeTest(self,configs):
         pass
 
-    def worker(self,config):
+    def insertUser(self,config):
         """thread worker function"""
         sleep(config.time)
         print
@@ -32,15 +32,13 @@ class DBController:
         return
 
     def connection(self, config):
-        config.opertation
+
         threads = []
         for i in range(config.connections):
-            t = threading.Thread(target=self.worker(config))
+            if config.opertation == "":
+                t = threading.Thread(target=self.insertUser(config))
             threads.append(t)
             t.start()
-
-
-
 
     def insertUsers(self,user):
         self.cur.callproc("newUser" , (
