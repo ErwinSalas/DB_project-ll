@@ -5,12 +5,18 @@
     <title>BD test</title>
      <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .color-main{
+            background-color:#0d47a1;
+            color:white;
+        }
+    </style>
 </head>
 <body>
  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Configuracion del Test</a>
+    <div class="nav-wrapper color-main">
+      <a href="#" class="brand-logo" style="margin-left:3%;"><i class="material-icons">apps</i>Configuracion del Test</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="sass.html"></a></li>
         <li><a href="badges.html"></a></li>
@@ -33,26 +39,32 @@
       </div>
 
       <div class="row">
-        <div class="input-field col s12">
-            <select id="operation" name="operation" class="validate">
-                <option value="insert_user">Insertar Usuarios</option>
+
+        <div class="input-field col s12 ">
+            <p  style="margin-bottom:20px; ">Tipo de operacion</p>
+
+            <select id="operation" name="operation" class="color-main" style="display:block;">
+                <option value=1>Insertar Usuarios</option>
+                <option value=2>Consultar Usuarios</option>
+                <option value=3>Consuta Uno</option>
+
             </select>
-          <label for="operation">Tipo de operacion</label>
         </div>
       </div>
         <div class="row">
         <div class="input-field col s12">
-          <input id="numero" name="numero" type="text" class="validate">
-          <label for="numero">Cantidad de operaciones</label>
+          <input id="operation_number" name="operation_number" type="text" class="validate">
+          <label for="operation_number">Cantidad de operaciones</label>
         </div>
       </div>
-        <button class="btn waves-effect waves-light" type="submit" name="action">Configurar y ejecutar
+        <button class="btn waves-effect waves-light color-main"   type="submit" name="action">Configurar y ejecutar
     <i class="material-icons right">send</i>
   </button>
 
     </form>
   </div>
     </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
