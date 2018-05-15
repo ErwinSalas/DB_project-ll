@@ -23,8 +23,5 @@ def getTestConfigs():
     pesoMax=request.form['pesoMax']
     pesoMin=request.form['pesoMin']
 
-    dos = Dosis(id,anim,enf,med ,pesoMax,pesoMin,dosis)
-    dosisController.update(dos)
-    return mostrarDosis(0)
 if __name__ == '__main__':
     app.run(debug=True)
