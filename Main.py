@@ -1,10 +1,9 @@
 import base64
 
-from Objects import Configs
 
 __author__ = 'Erwin'
 from flask import Flask,request,render_template
-
+import DBController, Objects
 
 app = Flask(__name__)
 app.secret_key = 'admin'
@@ -16,16 +15,14 @@ def indexPage():
 
 
 
-@app.route('/test/config', methods=['POST'])
+@app.route('/test/configs', methods=['POST'])
 def getTestConfigs():
     connections = int(request.form['connections'])
     time= request.form['time']
-    operation= request.form['operation']
-
-
-    conf = Configs(connections,time,operation)
-
-    return
+    conf = Objects.Configs(connections,time,operation, operationNumber)
+    conection = DBController.DBController('centraldb', 'Postgres', 'pass', 'localhost')
+    conection.insertUsers()
+    return "listo"
 
 
 if __name__ == '__main__':

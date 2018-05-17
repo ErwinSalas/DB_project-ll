@@ -1,9 +1,7 @@
 class Configs:
-    def __init__(self,connections,time,operation,operation_number):
-        self.opertation=operation
+    def __init__(self,connections,time):
         self.time = time
         self.connections=connections
-        self.operation_number=operation_number
 
 class User:
     def __init__(self,email, psswrd, nombre, apellido1, apellido2):
@@ -13,3 +11,8 @@ class User:
         self.apellido1 = apellido1
         self.apellido2 = apellido2
 
+class TestResult:
+    def __init__(self, id, operation):
+        self.id = id
+        self.time = 0
+        self.operation = operation

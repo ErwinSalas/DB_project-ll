@@ -34,13 +34,17 @@ class DBController:
         pass
 
     def insertUsers(self,user):
-        self.cur.callproc("newUser", (
-            user.email,
-            user.password,
-            user.name,
-            user.lastName1,
-            user.lastName2
-        ))
+        try:
+            self.cur.callproc("newUser", (
+                user.email,
+                user.password,
+                user.name,
+                user.lastName1,
+                user.lastName2
+            ))
+            print("insertado")
+        except:
+            print("error")
 
     def createRandomUser(self):
         name = self.namesList[random.randint(0, len(self.namesList))]
@@ -49,7 +53,7 @@ class DBController:
         email = self.emailsList[random.randint(0, len(self.emailsList))]
         password = self.passwordsList[random.randint(0, len(self.passwordsList))]
         user = Objects.User(name, lastName1, lastName2, email, password)
-        return user
+        self.insertUsers(user)
 
     def preInsertUser(self,config):
         threads = []
@@ -69,8 +73,5 @@ class DBController:
 
     def connection(self, config):
         threads = []
-        for i in range(config.connections):
-            if config.opertation == 0:
-                t = threading.Thread(target=self.preInsertUser(config))
-            threads.append(t)
-            t.start()
+        id = 0
+        self.createRandomUser()
