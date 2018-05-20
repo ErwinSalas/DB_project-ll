@@ -90,7 +90,7 @@ BEGIN
 			currentID = cast((SELECT currval('reservas_idReserva_seq')) as integer)+1;--para saber por cuál índice va la tabla (SERIAL TYPE)
 			INSERT INTO reservas(idSede, idUsuario, montoTotal, fecha) VALUES (p_idSede, p_idUsuario, p_montoTotal, p_fecha);
 
-			PERFORM dblink('host=localhost user=postgres password=aniram dbname=nodeII', --aquí va la sede
+			PERFORM dblink('host=localhost user=postgres password=postgres dbname=nodeII', --aquí va la sede
 				    FORMAT('INSERT INTO servicios_reservas VALUES
 				    (%s,%s,%s,%s)',p_idServicio,currentID,p_cantidad, p_costo));
 		WHEN 3 THEN --nodoIII
@@ -98,7 +98,7 @@ BEGIN
 			p_montoTotal=p_costo*p_cantidad;
 			p_fecha = cast((now() + '1 year'::interval * random()) as date); --inserta de la fecha de hoy en adelante
 			currentID = cast((SELECT currval('reservas_idReserva_seq')) as integer)+1;
-			PERFORM dblink('host=localhost user=postgres password=aniram dbname=nodeIII', --aquí va la sede
+			PERFORM dblink('host=localhost user=postgres password=postgres dbname=nodeIII', --aquí va la sede
 				    FORMAT('INSERT INTO servicios_reservas VALUES
 				    (%s,%s,%s,%s)',p_idServicio,currentID,p_cantidad, p_costo));
 			INSERT INTO reservas(idSede, idUsuario, montoTotal, fecha) VALUES (p_idSede, p_idUsuario, p_montoTotal, p_fecha);
@@ -118,7 +118,7 @@ $$
 BEGIN
 	--hacer cases para todas las sedes cuando se tengan las bd
 	delete from reservas r where r.idReserva=p_idReservacion;
-	PERFORM dblink('host=localhost user=postgres password=aniram dbname=nodeII', --aquí va la sede
+	PERFORM dblink('host=localhost user=postgres password=postgres dbname=nodeII', --aquí va la sede
 				    FORMAT('DELETE from servicios_reservas sr where sr.idReserva = %s'
 				    ,p_idReservacion));
 
@@ -143,7 +143,7 @@ BEGIN
 	--when 2: conectarse a 'n' sede para su modificacion
 	p_costo = (select( floor ( random() * 1000 + 35)::int));
 	p_fecha = cast((now() + '1 year'::interval * random()) as date);
-	PERFORM dblink('host=localhost user=postgres password=aniram dbname=nodeII', --aquí va la sede
+	PERFORM dblink('host=localhost user=postgres password=postgres dbname=nodeII', --aquí va la sede
 		    FORMAT('update servicios_reservas set idServicio = %s, cantidadPersonas= %s, costo= %s where idReserva = %s'
 		    ,p_idServicio,p_cantidad, p_costo, p_idReserva));
 	update reservas set montoTotal = p_costo*p_cantidad, fecha=p_fecha
@@ -183,7 +183,7 @@ SELECT insReservacionN(100000); --INSERTA 'n' CANTIDAD DE RESERVACIONES
 
 ---------------------------------------------------------------------------------------------------------
 --servicios-reservas más caros --idx costo
-select * from dblink('host=localhost user=postgres password=aniram dbname=nodeII',
+select * from dblink('host=localhost user=postgres password=postgres dbname=nodeII',
 		'select s.idServicio, s.nombre, sr.costo from servicios s inner join
 		servicios_reservas sr on s.idServicio=sr.idServicio order by sr.costo desc limit 100') as serviciosCostosII(idServicio int, nombre varchar(20), costo int);
 /*union
@@ -193,7 +193,7 @@ select * from dblink('host=localhost user=postgres password=aniram dbname=nodeII
 */
 ---------------------------------------------------------------------------------------------------------
 --servicios que cumplen con el tipo de una preferencia de un usuario x --idx tipo
-select * from dblink('host=localhost user=postgres password=aniram dbname=nodeII',
+select * from dblink('host=localhost user=postgres password=postgres dbname=nodeII',
 		'select s.nombre, s.tipo from servicios s where s.tipo = ''tipo2'' ') as categorizacion(nombre varchar(20), tipo varchar(15)); --asignar para una preferencia de un usuario espec
 ---------------------------------------------------------------------------------------------------------
 --ingresos de cada sede en un tiempo x

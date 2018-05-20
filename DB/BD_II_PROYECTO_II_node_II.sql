@@ -1,5 +1,5 @@
 ﻿--nodeII SQL QUERY
-
+use nodeII
 CREATE TABLE usuarios(
 	idUsuario serial,
 	email varchar(20) check (email similar to ('[A-z]%@[A-z]%.[A-z]%')),
@@ -64,7 +64,7 @@ BEGIN
 		p_nombre = 'USR'||cast(p_idUsr as varchar(10));
 		p_apellido1 ='A1_'||cast(p_idUsr as varchar(10));
 		P_apellido2 ='A2_'||cast(p_idUsr as varchar(10));
-		PERFORM dblink('host=localhost user=postgres password=aniram dbname=centralDB',
+		PERFORM dblink('host=localhost user=postgres password=postgres dbname=centralDB',
 				FORMAT('INSERT INTO usuarios VALUES
 				(%s,''%s'',''%s'',''%s'')', p_idUsr, p_nombre,p_apellido1,p_apellido2));
 		INSERT INTO usuarios (email, psswrd, preferencia) VALUES (p_email, p_psswrd, p_preferencia);

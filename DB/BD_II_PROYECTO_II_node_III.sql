@@ -44,25 +44,25 @@ AS
 $$
 	INSERT INTO usuarios VALUES (idUsuario, email, psswrd);
 	--INSERT centralDB
-	SELECT dblink('host=localhost user=postgres password=aniram dbname=centralDB', 
+	SELECT dblink('host=localhost user=postgres password=postgres dbname=centralDB',
 		    FORMAT('INSERT INTO usuarios VALUES 
 		    (%s,''%s'',''%s'',''%s'')',idUsuario,nombre,apellido1,
 			apellido2)); 
 $$
 LANGUAGE SQL;
 ----------------------------------SERVICES FOR nodeI (idSede: 2)----------------------------------
-INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(6, 'Hospedaje', 2, 15000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
-INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(7, 'Alimentacion', 2, 15000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
-INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(8, 'Cabalgata', 2, 25000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
-INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(9, 'Rafting', 2, 25000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
-INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(0, 'Tour_Guiado', 2, 10000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
+INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(1, 'Hospedaje', 2, 15000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
+INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(2, 'Alimentacion', 2, 15000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
+INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(3, 'Cabalgata', 2, 25000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
+INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(4, 'Rafting', 2, 25000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
+INSERT INTO servicios(idServicio, nombre, idSede, costo, img) values(5, 'Tour_Guiado', 2, 10000, (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png')));
 
 ----------------------------------USERS FOR nodeI (idSede: 2)-------------------------------------
 
-select newUser(6, 'xxx@xxx.com','123a','USR6','A1','A2');
-select newUser(7, 'xxx@xxx.com','123b','USR7','A1','A2');
-select newUser(8, 'xxx@xxx.com','123c','USR8','A1','A2');
-select newUser(9, 'xxx@xxx.com','123d','USR9','A1','A2');
-select newUser(0, 'xxx@xxx.com','123e','USR0','A1','A2');
+select newUser(1, 'xxx@xxx.com','123a','USR6','A1','A2');
+select newUser(2, 'xxx@xxx.com','123b','USR7','A1','A2');
+select newUser(3, 'xxx@xxx.com','123c','USR8','A1','A2');
+select newUser(4, 'xxx@xxx.com','123d','USR9','A1','A2');
+select newUser(5, 'xxx@xxx.com','123e','USR0','A1','A2');
 
 ---------------------------------------------------------------------------------------------------

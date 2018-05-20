@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="@proyecto2" uuid="144fcf4c-39cd-4d58-9b4e-eea8584cc7e1">
-      <database-info product="PostgreSQL" version="9.6.8" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>postgres</user-name>
-      <introspection-schemas>centraldb:*|node_sede_fortuna:*|nodo_central:*|nodo_sede_fortuna:*|postgres:@,public|test:</introspection-schemas>
-    </data-source>
     <data-source name="postgres@proyectoll" uuid="cc07a392-f2e0-441f-b7dc-de009fb12275">
       <database-info product="PostgreSQL" version="9.6.8" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
         <identifier-quote-string>&quot;</identifier-quote-string>
@@ -17,7 +8,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
-      <introspection-schemas>centralDB:@|postgres:public|test:@</introspection-schemas>
+      <introspection-schemas>centralDB:*|nodeii:*|nodeiii:*|postgres:public|test:@</introspection-schemas>
     </data-source>
   </component>
 </project>
