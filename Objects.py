@@ -1,6 +1,7 @@
 class Configs:
-    def __init__(self,connections,time):
+    def __init__(self,connections,time,operations):
         self.time = time
+        self.operations=operations
         self.connections=connections
 
 class User:

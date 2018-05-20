@@ -17,8 +17,11 @@ def indexPage():
 
 @app.route('/test/configs', methods=['POST'])
 def getTestConfigs():
-    conection = DBController.DBController('nodeIII', 'postgres', 'password', 'localhost')
-    ob = Objects.Configs(6, 1)
+    connections = int(request.form['connections'])
+    time = request.form['time']
+    operations = request.form['operation_number']
+    conection = DBController.DBController('nodeIII', 'postgres', 'postgres', 'localhost')
+    ob = Objects.Configs(connections,time ,operations)
     conection.connection(ob)
     return "listo"
 
