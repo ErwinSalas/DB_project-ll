@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@proyectoll">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.8">
+    <root id="1">
+      <ServerVersion>9.6.8</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="centralDB">
+      <ObjectId>16694</ObjectId>
+      <IntrospectionStateNumber>105</IntrospectionStateNumber>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12483</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <IntrospectionStateNumber>105</IntrospectionStateNumber>
+      <Visible>1</Visible>
+    </database>
+    <database id="4" parent="1" name="test">
+      <ObjectId>16484</ObjectId>
+      <IntrospectionStateNumber>105</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <role id="5" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="6" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="7" parent="2" name="information_schema">
+      <ObjectId>12195</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+    </schema>
+    <schema id="9" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+    </schema>
+    <schema id="11" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <IntrospectionTimestamp>2018-05-20.09:13:31.879</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="13" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="14" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="15" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="16" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="17" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="18" parent="2" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <schema id="19" parent="3" name="information_schema">
+      <ObjectId>12195</ObjectId>
+    </schema>
+    <schema id="20" parent="3" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+    </schema>
+    <schema id="21" parent="3" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="22" parent="3" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+    </schema>
+    <schema id="23" parent="3" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="24" parent="3" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <IntrospectionTimestamp>2018-05-20.09:04:12.645</IntrospectionTimestamp>
+      <IntrospectionStateNumber>677</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="25" parent="3" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="26" parent="3" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="27" parent="3" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="28" parent="3" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="29" parent="3" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="30" parent="3" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <schema id="31" parent="4" name="information_schema">
+      <ObjectId>12195</ObjectId>
+    </schema>
+    <schema id="32" parent="4" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+    </schema>
+    <schema id="33" parent="4" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="34" parent="4" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+    </schema>
+    <schema id="35" parent="4" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="36" parent="4" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <IntrospectionTimestamp>2018-05-20.09:13:32.840</IntrospectionTimestamp>
+      <IntrospectionStateNumber>647</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="37" parent="4" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="38" parent="4" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="39" parent="4" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="40" parent="4" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="41" parent="4" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="42" parent="4" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <sequence id="43" parent="24" name="reservas_idreserva_seq">
+      <ObjectId>16676</ObjectId>
+      <StateNumber>677</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="44" parent="24" name="sedes_idsede_seq">
+      <ObjectId>16668</ObjectId>
+      <StateNumber>676</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="45" parent="24" name="usuarios_idusuario_seq">
+      <ObjectId>16660</ObjectId>
+      <StateNumber>675</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="46" parent="24" name="reservas">
+      <ObjectId>16678</ObjectId>
+      <StateNumber>677</StateNumber>
+    </table>
+    <table id="47" parent="24" name="sedes">
+      <ObjectId>16670</ObjectId>
+      <StateNumber>677</StateNumber>
+    </table>
+    <table id="48" parent="24" name="usuarios">
+      <ObjectId>16662</ObjectId>
+      <StateNumber>677</StateNumber>
+    </table>
+    <sequence id="49" parent="36" name="migrations_id_seq">
+      <ObjectId>16485</ObjectId>
+      <StateNumber>644</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="50" parent="36" name="users_id_seq">
+      <ObjectId>16493</ObjectId>
+      <StateNumber>645</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="51" parent="36" name="migrations">
+      <ObjectId>16487</ObjectId>
+      <StateNumber>644</StateNumber>
+    </table>
+    <table id="52" parent="36" name="password_resets">
+      <ObjectId>16506</ObjectId>
+      <StateNumber>647</StateNumber>
+    </table>
+    <table id="53" parent="36" name="users">
+      <ObjectId>16495</ObjectId>
+      <StateNumber>645</StateNumber>
+    </table>
+    <column id="54" parent="46" name="idreserva">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <DefaultExpression>nextval(&apos;reservas_idreserva_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>reservas_idreserva_seq</SequenceName>
+    </column>
+    <column id="55" parent="46" name="idsede">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>677</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="56" parent="46" name="idusuario">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>677</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="57" parent="46" name="montototal">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>677</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="58" parent="46" name="fecha">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>677</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <index id="59" parent="46" name="pk_idreservas_reservas">
+      <ObjectId>16682</ObjectId>
+      <ColNames>idreserva</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="46" name="pk_idreservas_reservas">
+      <ObjectId>16683</ObjectId>
+      <ColNames>idreserva</ColNames>
+      <UnderlyingIndexName>pk_idreservas_reservas</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="61" parent="46" name="fk_idsede_sedes">
+      <ObjectId>16684</ObjectId>
+      <ColNames>idsede</ColNames>
+      <RefTableId>16670</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>sedes</RefTableName>
+      <RefKeyName>pk_idsede_sedes</RefKeyName>
+      <RefColNames>idsede</RefColNames>
+    </foreign-key>
+    <foreign-key id="62" parent="46" name="fk_idusuario_usuarios">
+      <ObjectId>16689</ObjectId>
+      <ColNames>idusuario</ColNames>
+      <RefTableId>16662</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>usuarios</RefTableName>
+      <RefKeyName>pk_idusuario_usuarios</RefKeyName>
+      <RefColNames>idusuario</RefColNames>
+    </foreign-key>
+    <column id="63" parent="47" name="idsede">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>676</StateNumber>
+      <DefaultExpression>nextval(&apos;sedes_idsede_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>sedes_idsede_seq</SequenceName>
+    </column>
+    <column id="64" parent="47" name="nombre">
+      <Position>2</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <StateNumber>676</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="47" name="ubicacion">
+      <Position>3</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <StateNumber>676</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="66" parent="47" name="pk_idsede_sedes">
+      <ObjectId>16674</ObjectId>
+      <ColNames>idsede</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="47" name="pk_idsede_sedes">
+      <ObjectId>16675</ObjectId>
+      <ColNames>idsede</ColNames>
+      <UnderlyingIndexName>pk_idsede_sedes</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="68" parent="48" name="idusuario">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>675</StateNumber>
+      <DefaultExpression>nextval(&apos;usuarios_idusuario_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>usuarios_idusuario_seq</SequenceName>
+    </column>
+    <column id="69" parent="48" name="nombre">
+      <Position>2</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <StateNumber>675</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="70" parent="48" name="apellido1">
+      <Position>3</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <StateNumber>675</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="71" parent="48" name="apellido2">
+      <Position>4</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <StateNumber>675</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="72" parent="48" name="pk_idusuario_usuarios">
+      <ObjectId>16666</ObjectId>
+      <ColNames>idusuario</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="48" name="pk_idusuario_usuarios">
+      <ObjectId>16667</ObjectId>
+      <ColNames>idusuario</ColNames>
+      <UnderlyingIndexName>pk_idusuario_usuarios</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="51" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>644</StateNumber>
+      <DefaultExpression>nextval(&apos;migrations_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>migrations_id_seq</SequenceName>
+    </column>
+    <column id="75" parent="51" name="migration">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>644</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="76" parent="51" name="batch">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>644</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="77" parent="51" name="migrations_pkey">
+      <ObjectId>16491</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="78" parent="51" name="migrations_pkey">
+      <ObjectId>16492</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>migrations_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="52" name="email">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>647</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="80" parent="52" name="token">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>647</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="81" parent="52" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <StateNumber>647</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="82" parent="52" name="password_resets_email_index">
+      <ObjectId>16512</ObjectId>
+      <ColNames>email</ColNames>
+    </index>
+    <column id="83" parent="53" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>645</StateNumber>
+      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>users_id_seq</SequenceName>
+    </column>
+    <column id="84" parent="53" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>645</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="85" parent="53" name="img">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>645</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="86" parent="53" name="email">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>645</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="87" parent="53" name="password">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>645</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="88" parent="53" name="remember_token">
+      <Position>6</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>645</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="89" parent="53" name="created_at">
+      <Position>7</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <StateNumber>645</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="90" parent="53" name="updated_at">
+      <Position>8</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <StateNumber>645</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="91" parent="53" name="users_pkey">
+      <ObjectId>16502</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="92" parent="53" name="users_email_unique">
+      <ObjectId>16504</ObjectId>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="93" parent="53" name="users_pkey">
+      <ObjectId>16503</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="94" parent="53" name="users_email_unique">
+      <ObjectId>16505</ObjectId>
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

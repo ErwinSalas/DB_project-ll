@@ -33,14 +33,20 @@ class DBController:
     def executeTest(self, configs):
         pass
 
-    def insertUsers(self):
+    def insertReserva(self):
         cur = self.conn.cursor()
         cur.execute("select insUsr(20)")
         self.conn.commit()
         cur.close()
         return
 
-    def insServicio(self):
+    def deleteReserva(self):
+        cur = self.conn.cursor()
+        cur.execute("select insServicio(20)")
+        self.conn.commit()
+        cur.close()
+        return
+    def updateReserva(self):
         cur = self.conn.cursor()
         cur.execute("select insServicio(20)")
         self.conn.commit()
@@ -58,6 +64,7 @@ class DBController:
 
     def preInsertUser(self, config):
         sleep(config.time)
+
         #user = self.createRandomUser()
 
         self.insertUsers()

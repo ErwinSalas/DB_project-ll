@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582579cc-28f8-4cc1-b9d1-2a83099783f8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DB_project-ll.iml" afterPath="$PROJECT_DIR$/.idea/DB_project-ll.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql" afterPath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql" />
-      <change beforePath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql" afterPath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql" />
+      <change beforePath="$PROJECT_DIR$/DB/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/DB/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/DB/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/DB/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/DB/.idea/dataSources/144fcf4c-39cd-4d58-9b4e-eea8584cc7e1.xml" afterPath="$PROJECT_DIR$/DB/.idea/dataSources/144fcf4c-39cd-4d58-9b4e-eea8584cc7e1.xml" />
+      <change beforePath="$PROJECT_DIR$/DB/.idea/workspace.xml" afterPath="$PROJECT_DIR$/DB/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/DBController.py" afterPath="$PROJECT_DIR$/DBController.py" />
-      <change beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
-      <change beforePath="$PROJECT_DIR$/Objects.py" afterPath="$PROJECT_DIR$/Objects.py" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/Objects.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="26" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -56,8 +53,8 @@
       <file leaf-file-name="DBController.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DBController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="732">
+              <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -76,8 +73,8 @@
       <file leaf-file-name="BD_II_PROYECTO_II_centralDB.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+            <state relative-caret-position="-695">
+              <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -98,6 +95,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -749,18 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Objects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="8" selection-end-column="26" />
+          <caret line="8" column="26" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -773,10 +763,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-695">
+          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DBController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="732">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding />
         </state>
       </provider>
