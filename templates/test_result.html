@@ -24,27 +24,43 @@
       </ul>
     </div>
   </nav>
-    <div class="container" style="margin-top:10%">
+    <div style="margin:3%">
          <div class="row">
-            <table>
+            <table class="striped">
                 <thead>
                   <tr>
-
                       <th>Número operación</th>
                       <th>Hilo de ejecucion</th>
                       <th>Tipo de operacion</th>
                       <th>Indice</th>
                       <th>Tiempo</th>
-                      <th>Peso nodo central</th>
-                      <th>Peso nodo 2</th>
-                      <th>Peso nodo 3</th>
+                      <th>Tamaño inicial nodo central</th>
+                      <th>Tamaño inicial nodo 2</th>
+                      <th>Tamaño inicial nodo 3</th>
+                      <th>Tamaño final nodo central</th>
+                      <th>Tamaño final 2</th>
+                      <th>Tamaño final 3</th>
                   </tr>
                 </thead>
 
                 <tbody>
+
+
+                {%for result in results%}
                 <tr>
-                    <td><p>{{results}}</p></td>
+                    <td><p>{{result.id}}</p></td>
+                     <td><p>{{result.threadConection}}</p></td>
+                     <td><p>{{result.operation}}</p></td>
+                     <td><p>{{result.hasIndex}}</p></td>
+                     <td><p>{{result.time}}</p></td>
+                    <td><p>{{result.centralSizeV}}</p></td>
+                    <td><p>{{result.nodeiiSizeV}}</p></td>
+                    <td><p>{{result.nodeiiiSizeV}}</p></td>
+                    <td><p>{{result.centralSizeN}}</p></td>
+                    <td><p>{{result.nodeiiSizeN}}</p></td>
+                    <td><p>{{result.nodeiiiSizeN}}</p></td>
                 </tr>
+                {% endfor %}
                 </tbody>
             </table>
         </div>

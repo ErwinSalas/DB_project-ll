@@ -21,6 +21,10 @@ def test():
 
 
 
+@app.route('/test/crecimiento')
+def test_crecimiento():
+   return render_template('test_inserts.html')
+
 
 
 @app.route('/test/configs', methods=['POST'])
