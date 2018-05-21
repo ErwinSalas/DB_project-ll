@@ -51,7 +51,6 @@ class DBController:
         cur.close()
         return
 
-
     def updateReserva(self):
         p_idReserva=random.randint(0, 100)
         p_idServicio=random.randint(1, 6)
@@ -185,21 +184,23 @@ class DBController:
         connIndex.close()
 
     def connection(self, config):
-        threads = []
-        id = 0
         for numConection in range(config.connections):
             numConection += 1
             for numOperation in range(config.operations):
                 numOperation += 1
                 time.sleep(config.time)
                 t0 = time.time()
-                operation = random.randint(0, 3)
+                operation = random.randint(0, 5)
                 if operation == 0:
                     t = threading.Thread(target=self.insertReserva())
                 elif operation == 1:
                     t = threading.Thread(target=self.updateReserva())
                 elif operation == 2:
                     t = threading.Thread(target=self.deleteReserva())
+                elif operation == 3:
+                    t = threading.Thread(target=self.servisiosMasCaros())
+                elif operation == 4:
+                    t = threading.Thread(target=self.usuariosPorPreferencia())
                 else:
                     t = threading.Thread(target=self.ingresosSede())
                 t.start()
@@ -207,4 +208,3 @@ class DBController:
                 print(time.time() - t0)
                 Objects.TestResult(numConection, numOperation, operation, timeOnProcedure)
         self.conn.close()
-
