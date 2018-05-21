@@ -35,6 +35,22 @@ class DBController:
         cur.close()
         return
 
+    #Consulta de usuarios por preferencia
+    def usuariosPorPreferencia(self):
+        cur = self.conn.cursor()
+        cur.execute("select usuariosPorPreferencia()")
+        self.conn.commit()
+        cur.close()
+        return
+
+    # Consulta de usuarios por preferencia
+    def servisiosMasCaros(self):
+        cur = self.conn.cursor()
+        cur.execute("select servisiosMasCaros()")
+        self.conn.commit()
+        cur.close()
+        return
+
     def updateReserva(self):
         p_idReserva=random.randint(0, 100)
         p_idServicio=random.randint(1, 6)
@@ -62,10 +78,6 @@ class DBController:
         connIndex.commit()
         curr.close()
         connIndex.close()
-        t0 = time.time()
-        self.
-        timeOnProcedureWithIndex = time.time() - t0
-        self.deleteIndexDateOnCentralDB()
 
     def deleteIndexDateOnCentralDB(self):
         connIndex = psycopg2.connect("dbname=centralDB user=postgres password=password host=localhost")
@@ -178,13 +190,17 @@ class DBController:
                 numOperation += 1
                 time.sleep(config.time)
                 t0 = time.time()
-                operation = random.randint(0, 3)
+                operation = random.randint(0, 4)
                 if operation == 0:
                     t = threading.Thread(target=self.insertReserva())
                 elif operation == 1:
                     t = threading.Thread(target=self.updateReserva())
                 elif operation == 2:
                     t = threading.Thread(target=self.deleteReserva())
+                elif operation == 3:
+                    t = threading.Thread(target=self.servisiosMasCaros())
+                elif operation == 4:
+                    t = threading.Thread(target=self.usuariosPorPreferencia())
                 else:
                     t = threading.Thread(target=self.ingresosSede())
                 t.start()
