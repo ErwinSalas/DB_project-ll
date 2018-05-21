@@ -143,7 +143,7 @@ BEGIN
 	--when 2: conectarse a 'n' sede para su modificacion
 	p_costo = (select( floor ( random() * 1000 + 35)::int));
 	p_fecha = cast((now() + '1 year'::interval * random()) as date);
-	PERFORM dblink('host=localhost user=postgres password=postgres dbname=nodeII', --aquí va la sede
+	PERFORM dblink('host=localhost user=postgres password=postgres dbname=nodeii', --aquí va la sede
 		    FORMAT('update servicios_reservas set idServicio = %s, cantidadPersonas= %s, costo= %s where idReserva = %s'
 		    ,p_idServicio,p_cantidad, p_costo, p_idReserva));
 	update reservas set montoTotal = p_costo*p_cantidad, fecha=p_fecha

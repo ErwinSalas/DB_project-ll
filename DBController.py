@@ -19,7 +19,7 @@ class DBController:
     def insertReserva(self):
         usuario=random.randint(1, 100)
         sede=random.randint(1, 2)
-        costo=random.randint(200000, 100000)
+        costo=random.randint(20000, 100000)
         servicio=random.randint(1, 8)
         cantidad=random.randint(1, 20)
         cur = self.conn.cursor()
@@ -42,7 +42,7 @@ class DBController:
                     " (select * from dblink('host=localhost user=postgres password=postgres dbname=nodeII',"+
            " 'select * from usuarios u where u.preferencia = ''tipo1'' ') as"+
                     " usr_node(idUsuario int, email varchar(20),psswrd varchar(10),preferencia varchar(15)) limit 200) "+
-                    "usr_nodeII on uc.idUsuario=usr_nodeII.idUsuario"+
+                    "usr_nodeII on uc.idUsuario=usr_nodeII.idUsuario "+
                     "inner join"+
                     "(select * from dblink('host=localhost user=postgres password=postgres dbname=nodeiii',"+
             "'select * from usuarios u where u.preferencia = ''tipo1'' ') as"+
@@ -57,7 +57,7 @@ class DBController:
         cur.execute(" select uc.idUsuario, uc.nombre from usuarios uc inner join"+
     "(select * from dblink('host=localhost user=postgres password=postgres dbname=nodeii',"+
             "'select * from usuarios u where u.preferencia = ''tipo1'' ') as"
-            "usr_node(idUsuario int,email varchar(20),psswrd varchar(10),preferencia varchar(15)) limit 200) usr_nodeII on uc.idUsuario=usr_nodeII.idUsuario"+
+            "usr_node(idUsuario int,email varchar(20),psswrd varchar(10),preferencia varchar(15)) limit 200) usr_nodeII on uc.idUsuario=usr_nodeII.idUsuario "+
    " inner join"+
     "(select * from dblink('host=localhost user=postgres password=postgres dbname=nodeiii',"+
             "'select * from usuarios u where u.preferencia = ''tipo1'' ') as"+
