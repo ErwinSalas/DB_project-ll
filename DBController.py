@@ -35,7 +35,6 @@ class DBController:
         cur.close()
         return
 
-
     def updateReserva(self):
         p_idReserva=random.randint(0, 100)
         p_idServicio=random.randint(1, 6)
@@ -63,6 +62,10 @@ class DBController:
         connIndex.commit()
         curr.close()
         connIndex.close()
+        t0 = time.time()
+        self.
+        timeOnProcedureWithIndex = time.time() - t0
+        self.deleteIndexDateOnCentralDB()
 
     def deleteIndexDateOnCentralDB(self):
         connIndex = psycopg2.connect("dbname=centralDB user=postgres password=password host=localhost")
@@ -169,8 +172,6 @@ class DBController:
         connIndex.close()
 
     def connection(self, config):
-        threads = []
-        id = 0
         for numConection in range(config.connections):
             numConection += 1
             for numOperation in range(config.operations):
@@ -191,4 +192,3 @@ class DBController:
                 print(time.time() - t0)
                 Objects.TestResult(numConection, numOperation, operation, timeOnProcedure)
         self.conn.close()
-
