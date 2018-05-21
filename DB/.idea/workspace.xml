@@ -74,29 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BD_II_PROYECTO_II_centralDB.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_centralDB.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="192" column="48" selection-start-line="182" selection-end-line="183" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BD_II_PROYECTO_II_node_III.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_node_III.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cc07a392-f2e0-441f-b7dc-de009fb12275/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
               <caret line="215" column="21" selection-start-line="215" selection-start-column="21" selection-end-line="215" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BD_II_PROYECTO_II_centralDB.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_centralDB.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="221" lean-forward="true" selection-start-line="205" selection-start-column="4" selection-end-line="221" />
             </state>
           </provider>
         </entry>
@@ -162,7 +153,7 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.49924013" visible="true" weight="0.33739132" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.49924013" visible="true" weight="0.9373913" />
       <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5007599" side_tool="true" weight="0.32869565" />
@@ -542,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_centralDB.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="192" column="48" selection-start-line="182" selection-end-line="183" selection-end-column="2" />
+        <state>
+          <caret line="221" lean-forward="true" selection-start-line="205" selection-start-column="4" selection-end-line="221" />
         </state>
       </provider>
     </entry>
