@@ -190,7 +190,7 @@ class DBController:
                 numOperation += 1
                 time.sleep(config.time)
                 t0 = time.time()
-                operation = random.randint(0, 4)
+                operation = random.randint(0, 5)
                 if operation == 0:
                     t = threading.Thread(target=self.insertReserva())
                 elif operation == 1:
