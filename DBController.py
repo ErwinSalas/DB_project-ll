@@ -38,7 +38,15 @@ class DBController:
     #Consulta de usuarios por preferencia
     def usuariosPorPreferencia(self):
         cur = self.conn.cursor()
-        cur.execute("select usuariosPorPreferencia()")
+        cur.execute(" select uc.idUsuario, uc.nombre from usuarios uc inner join"+
+                    " (select * from dblink('host=localhost user=postgres password=postgres dbname=nodeII',"+
+           " 'select * from usuarios u where u.preferencia = ''tipo1'' ') as"+
+                    " usr_node(idUsuario int, email varchar(20),psswrd varchar(10),preferencia varchar(15)) limit 200) "+
+                    "usr_nodeII on uc.idUsuario=usr_nodeII.idUsuario"+
+                    "inner join"+
+                    "(select * from dblink('host=localhost user=postgres password=postgres dbname=nodeiii',"+
+            "'select * from usuarios u where u.preferencia = ''tipo1'' ') as"+
+        " usr_node(idUsuario int,email varchar(20), psswrd varchar(10), preferencia varchar(15)) limit 200)usr_nodeIII on uc.idUsuario = usr_nodeIII.idUsuario; --asignar para una preferencia de un usuario espec")
         self.conn.commit()
         cur.close()
         return
@@ -46,7 +54,14 @@ class DBController:
     # Consulta de usuarios por preferencia
     def servisiosMasCaros(self):
         cur = self.conn.cursor()
-        cur.execute("select servisiosMasCaros()")
+        cur.execute(" select uc.idUsuario, uc.nombre from usuarios uc inner join"+
+    "(select * from dblink('host=localhost user=postgres password=postgres dbname=nodeii',"+
+            "'select * from usuarios u where u.preferencia = ''tipo1'' ') as"
+            "usr_node(idUsuario int,email varchar(20),psswrd varchar(10),preferencia varchar(15)) limit 200) usr_nodeII on uc.idUsuario=usr_nodeII.idUsuario"+
+   " inner join"+
+    "(select * from dblink('host=localhost user=postgres password=postgres dbname=nodeiii',"+
+            "'select * from usuarios u where u.preferencia = ''tipo1'' ') as"+
+            "usr_node(idUsuario int, email varchar(20), psswrd varchar(10),preferencia varchar(15)) limit 200)usr_nodeIII on uc.idUsuario = usr_nodeIII.idUsuario; --asignar para una preferencia de un usuario espec")
         self.conn.commit()
         cur.close()
         return
@@ -186,25 +201,43 @@ class DBController:
     def connection(self, config):
         for numConection in range(config.connections):
             numConection += 1
+
             for numOperation in range(config.operations):
                 numOperation += 1
+
+                result = Objects.TestResult(0,0,0,0)
+                result.id = numConection
+                result.threadConection = numOperation
+
                 time.sleep(config.time)
                 t0 = time.time()
                 operation = random.randint(0, 5)
                 if operation == 0:
                     t = threading.Thread(target=self.insertReserva())
+                    result.operation="insertReserva()"
                 elif operation == 1:
                     t = threading.Thread(target=self.updateReserva())
+                    result.operation = "updateReserva()"
                 elif operation == 2:
                     t = threading.Thread(target=self.deleteReserva())
+                    result.operation = "deleteReserva()"
+
                 elif operation == 3:
                     t = threading.Thread(target=self.servisiosMasCaros())
+                    result.operation = "servisiosMasCaros()"
+
                 elif operation == 4:
                     t = threading.Thread(target=self.usuariosPorPreferencia())
+                    result.operation = "usuariosPorPreferencia()"
+
                 else:
                     t = threading.Thread(target=self.ingresosSede())
+                    result.operation = "ingresosSede()"
+
                 t.start()
                 timeOnProcedure = time.time() - t0
                 print(time.time() - t0)
-                Objects.TestResult(numConection, numOperation, operation, timeOnProcedure)
+                result.time=timeOnProcedure
+                self.testResultsList.append(result)
         self.conn.close()
+        return self.testResultsList

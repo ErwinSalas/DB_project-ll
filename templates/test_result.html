@@ -26,8 +26,31 @@
   </nav>
     <div class="container" style="margin-top:10%">
          <div class="row">
+            <table>
+                <thead>
+                  <tr>
+                      <th>Conneccion</th>
+                      <th>Tipo de operacion</th>
+                      <th>Numero de operacion</th>
+                      <th>Tiempo</th>
 
+                  </tr>
+                </thead>
+
+                <tbody>
+                 {% for test in results %}
+                  <tr>
+                    <td>{{test.id}}</td>
+                    <td>{{test.operation}}</td>
+                    <td>{{test.threadConection}}</td>
+                    <td>{{test.time}}</td>
+
+                  </tr>
+                 {% end for %}
+                </tbody>
+            </table>
         </div>
+
     </div>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Compiled and minified JavaScript -->
