@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582579cc-28f8-4cc1-b9d1-2a83099783f8" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
+      <change beforePath="$PROJECT_DIR$/.idea/DB_project-ll.iml" afterPath="$PROJECT_DIR$/.idea/DB_project-ll.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/DB/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/DB/.idea/dataSources.local.xml" />
       <change beforePath="$PROJECT_DIR$/DB/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/DB/.idea/dataSources.xml" />
       <change beforePath="$PROJECT_DIR$/DB/.idea/dataSources/cc07a392-f2e0-441f-b7dc-de009fb12275.xml" afterPath="$PROJECT_DIR$/DB/.idea/dataSources/cc07a392-f2e0-441f-b7dc-de009fb12275.xml" />
-      <change beforePath="$PROJECT_DIR$/DB/.idea/dataSources/cc07a392-f2e0-441f-b7dc-de009fb12275/storage_v2/_src_/database/centralDB.s2yh2Q/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/DB/.idea/dataSources/cc07a392-f2e0-441f-b7dc-de009fb12275/storage_v2/_src_/database/centralDB.s2yh2Q/schema/public.abK9xQ.meta" />
       <change beforePath="$PROJECT_DIR$/DB/.idea/workspace.xml" afterPath="$PROJECT_DIR$/DB/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql" afterPath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql" />
-      <change beforePath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql" afterPath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql" />
-      <change beforePath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_III.sql" afterPath="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_III.sql" />
       <change beforePath="$PROJECT_DIR$/DBController.py" afterPath="$PROJECT_DIR$/DBController.py" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +26,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
               <caret line="8" column="26" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="8" selection-end-column="26" />
-              <folding />
+              <folding>
+                <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,23 +36,8 @@
       <file leaf-file-name="test_result.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/test_result.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="2442">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBController.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBController.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-=======
             <state relative-caret-position="504">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1526755324718" expanded="true" signature="957:984" ph="..." />
@@ -63,20 +46,14 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="BD_II_PROYECTO_II_centralDB.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-=======
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
-              <folding />
+              <folding>
+                <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,13 +61,8 @@
       <file leaf-file-name="DBController.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DBController.py">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="1078">
-              <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-=======
-            <state relative-caret-position="692">
-              <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
+            <state relative-caret-position="308">
+              <caret line="51" column="14" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="51" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -99,31 +71,18 @@
       <file leaf-file-name="BD_II_PROYECTO_II_node_II.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="1034">
-              <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-=======
             <state relative-caret-position="148">
               <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-=======
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="98">
               <caret line="43" column="61" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="61" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
               <folding />
             </state>
           </provider>
@@ -132,18 +91,9 @@
       <file leaf-file-name="BD_II_PROYECTO_II_centralDB.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="3234">
-              <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+            <state relative-caret-position="73">
+              <caret line="229" column="49" lean-forward="false" selection-start-line="229" selection-start-column="27" selection-end-line="229" selection-end-column="49" />
               <folding />
-=======
-            <state relative-caret-position="-695">
-              <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-              <folding>
-                <marker date="1526831098344" expanded="true" signature="3425:3472" ph="..." />
-                <marker date="1526831098344" expanded="true" signature="5533:5738" ph="..." />
-              </folding>
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
             </state>
           </provider>
         </entry>
@@ -169,10 +119,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql" />
         <option value="$PROJECT_DIR$/Objects.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql" />
         <option value="$PROJECT_DIR$/DBController.py" />
       </list>
     </option>
@@ -241,11 +191,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dbnavigator.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/DBController.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/__pycache__/DBController.cpython-36.pyc</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -435,20 +381,12 @@
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3651316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18986385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18195377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -485,7 +423,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -493,7 +433,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -505,146 +447,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DBController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_III.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/psycopg2/extensions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3234">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" column="123" lean-forward="false" selection-start-line="60" selection-start-column="116" selection-end-line="60" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Objects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/psycopg2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_III.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" column="123" lean-forward="false" selection-start-line="60" selection-start-column="116" selection-end-line="60" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/psycopg2/extensions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3234">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Objects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/psycopg2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
           <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <marker date="1526831098344" expanded="true" signature="3425:3472" ph="..." />
-            <marker date="1526831098344" expanded="true" signature="5533:5738" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +467,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -668,7 +477,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,10 +503,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
           <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <marker date="1526831098344" expanded="true" signature="3425:3472" ph="..." />
-            <marker date="1526831098344" expanded="true" signature="5533:5738" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +511,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -719,7 +529,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -727,10 +539,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1692">
           <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <marker date="1526831098344" expanded="true" signature="3425:3472" ph="..." />
-            <marker date="1526831098344" expanded="true" signature="5533:5738" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +548,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,7 +558,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -782,7 +595,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -791,10 +606,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
           <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <marker date="1526831098344" expanded="true" signature="3425:3472" ph="..." />
-            <marker date="1526831098344" expanded="true" signature="5533:5738" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +630,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -834,7 +648,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -842,7 +658,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -857,10 +675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
           <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <marker date="1526831098344" expanded="true" signature="3425:3472" ph="..." />
-            <marker date="1526831098344" expanded="true" signature="5533:5738" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +691,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -884,7 +701,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -907,10 +726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
           <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <marker date="1526831098344" expanded="true" signature="3425:3472" ph="..." />
-            <marker date="1526831098344" expanded="true" signature="5533:5738" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +734,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -933,7 +751,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -963,21 +783,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="308:639" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-=======
     <entry file="file://$PROJECT_DIR$/Objects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="8" column="26" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="8" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1526860072839" expanded="true" signature="604:608" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -985,68 +803,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="43" column="61" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="61" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1078">
-          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding />
-=======
-        <state relative-caret-position="-695">
-          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-          <folding>
-            <marker date="1526831098344" expanded="true" signature="3425:3472" ph="..." />
-            <marker date="1526831098344" expanded="true" signature="5533:5738" ph="..." />
-          </folding>
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_node_II.sql">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="3234">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-=======
-        <state relative-caret-position="148">
-          <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
+        <state relative-caret-position="73">
+          <caret line="229" column="49" lean-forward="false" selection-start-line="229" selection-start-column="27" selection-end-line="229" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DBController.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="638">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/BD_II_PROYECTO_II_centralDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-=======
-        <state relative-caret-position="692">
-          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
->>>>>>> 5669b94826d1611ba7ce55a5e74f3f304415021f
+        <state relative-caret-position="308">
+          <caret line="51" column="14" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="51" selection-end-column="14" />
           <folding />
         </state>
       </provider>

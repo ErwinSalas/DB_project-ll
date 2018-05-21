@@ -34,42 +34,51 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@proyectoll" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="nodeii: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="tarea3: database" type="6d9b600a:PostgresImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@proyectoll" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="nodeii: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="tarea3: database" type="6d9b600a:PostgresImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@proyectoll" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="nodeii: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="tarea3: database" type="6d9b600a:PostgresImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@proyectoll" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tarea3: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BD_II_PROYECTO_II_node_II.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BD_II_PROYECTO_II_node_II.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_node_II.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
+            <state relative-caret-position="273">
               <caret line="124" selection-start-line="124" selection-end-line="124" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BD_II_PROYECTO_II_centralDB.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BD_II_PROYECTO_II_centralDB.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_centralDB.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="214" column="68" lean-forward="true" selection-start-line="214" selection-start-column="40" selection-end-line="214" selection-end-column="68" />
+            <state relative-caret-position="164">
+              <caret line="192" column="48" selection-start-line="182" selection-end-line="183" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -77,8 +86,17 @@
       <file leaf-file-name="BD_II_PROYECTO_II_node_III.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_node_III.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+            <state relative-caret-position="-380">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cc07a392-f2e0-441f-b7dc-de009fb12275/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="215" column="21" selection-start-line="215" selection-start-column="21" selection-end-line="215" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -90,6 +108,7 @@
       <list>
         <option value="$PROJECT_DIR$/BD_II_PROYECTO_II_node_II.sql" />
         <option value="$PROJECT_DIR$/BD_II_PROYECTO_II_node_III.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cc07a392-f2e0-441f-b7dc-de009fb12275/console.sql" />
         <option value="$PROJECT_DIR$/BD_II_PROYECTO_II_centralDB.sql" />
       </list>
     </option>
@@ -122,7 +141,8 @@
   <component name="PropertiesComponent">
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="PostgreSQL" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -142,7 +162,7 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Database Console" order="5" sideWeight="0.49924013" weight="0.32869565" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="5" sideWeight="0.49924013" visible="true" weight="0.33739132" />
       <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5007599" side_tool="true" weight="0.32869565" />
@@ -157,12 +177,12 @@
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="5" sideWeight="0.49924013" weight="0.32869565" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Console" order="6" sideWeight="0.49924013" visible="true" weight="0.32869565" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -193,27 +213,337 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/144fcf4c-39cd-4d58-9b4e-eea8584cc7e1/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cc07a392-f2e0-441f-b7dc-de009fb12275/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_node_III.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+    <entry file="uml://DATABASE/cc07a392-f2e0-441f-b7dc-de009fb12275.DATABASE:test">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>cc07a392-f2e0-441f-b7dc-de009fb12275.DATABASE:test</OriginalElement>
+          <nodes>
+            <node x="0.0" y="296.0">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:test.public.migrations</node>
+            <node x="0.0" y="0.0">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:test.public.users</node>
+            <node x="267.0" y="296.0">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:test.public.password_resets</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8888888888888888" x="-36.6875" y="286.0" />
+          <SelectedNodes>
+            <node>cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:test.public.migrations</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_centralDB.sql">
+    <entry file="uml://DATABASE/cc07a392-f2e0-441f-b7dc-de009fb12275.DATABASE:centralDB">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>cc07a392-f2e0-441f-b7dc-de009fb12275.DATABASE:centralDB</OriginalElement>
+          <nodes>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_foreign_data_wrapper</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_description</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_user_functions</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_default_acl</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.collations</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stats</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_shdescription</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.foreign_servers</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.domains</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_largeobject_metadata</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.role_routine_grants</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.foreign_table_options</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_largeobject</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_database</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_attribute</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_operator</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.column_options</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_ts_dict</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_archiver</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_inherits</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_seclabels</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_ts_template</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_user_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_statio_all_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.collation_character_set_applicability</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.sequences</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_statio_user_indexes</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.referential_constraints</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.schemata</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.domain_udt_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.information_schema.sql_implementation_info</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema._pg_foreign_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_collation</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.constraint_table_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_statio_sys_sequences</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_database</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.domain_constraints</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.data_type_privileges</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_statio_sys_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_database_conflicts</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.user_mapping_options</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_timezone_abbrevs</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_rewrite</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.parameters</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_statio_all_sequences</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_namespace</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.administrable_role_authorizations</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_ts_config_map</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.information_schema.sql_parts</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.information_schema.sql_languages</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_sys_indexes</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.information_schema_catalog_name</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_ssl</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_authid</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.user_defined_types</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_constraint</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_amop</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_foreign_table</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_statio_user_sequences</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_timezone_names</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_file_settings</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_bgwriter</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.view_table_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_depend</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_type</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.attributes</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.role_usage_grants</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_settings</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.foreign_data_wrapper_options</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_policies</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_progress_vacuum</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.element_types</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_replication_origin</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.constraint_column_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.applicable_roles</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_shseclabel</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_group</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.columns</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_wal_receiver</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.foreign_data_wrappers</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_config</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_all_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_amproc</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.column_privileges</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.routine_privileges</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_aggregate</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_extension</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.view_routine_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.public.sedes</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_db_role_setting</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_cast</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.table_constraints</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_replication_origin_status</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.enabled_roles</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_prepared_statements</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.foreign_server_options</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.view_column_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.information_schema.sql_sizing</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.triggers</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_attrdef</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_all_indexes</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_indexes</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_replication_slots</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_event_trigger</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_statistic</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.information_schema.sql_sizing_profiles</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_views</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_rules</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_xact_all_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_seclabel</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.routines</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_roles</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_index</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.character_sets</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_xact_user_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_proc</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.column_udt_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_range</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema._pg_foreign_servers</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_trigger</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.check_constraints</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.transforms</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema._pg_foreign_data_wrappers</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_available_extension_versions</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.triggered_update_columns</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.public.usuarios</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.udt_privileges</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.information_schema.sql_packages</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_policy</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_conversion</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema._pg_foreign_table_columns</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_transform</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_statio_user_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_available_extensions</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_ts_config</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_am</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.table_privileges</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.user_mappings</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.check_constraint_routine_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.public.reservas</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_user_mappings</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_init_privs</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_prepared_xacts</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.role_udt_grants</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_shdepend</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_statio_all_indexes</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_cursors</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_sys_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_replication</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_opclass</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.information_schema.sql_features</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_enum</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.role_table_grants</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.foreign_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.views</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_ts_parser</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_statio_sys_indexes</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_locks</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_tablespace</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.usage_privileges</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.column_domain_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_shadow</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_user</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_class</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_xact_user_functions</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_matviews</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.role_column_grants</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_language</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_opfamily</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_activity</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_xact_sys_tables</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_foreign_server</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_auth_members</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema.key_column_usage</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_user_mapping</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:centralDB.pg_catalog.pg_pltemplate</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.pg_catalog.pg_stat_user_indexes</node>
+            <node x="" y="">cc07a392-f2e0-441f-b7dc-de009fb12275.VIEW:centralDB.information_schema._pg_user_mappings</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7416296032734389" x="2787.500000000001" y="4682.4441574050325" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_node_III.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="214" column="68" lean-forward="true" selection-start-line="214" selection-start-column="40" selection-end-line="214" selection-end-column="68" />
+        <state relative-caret-position="-380">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/cc07a392-f2e0-441f-b7dc-de009fb12275.DATABASE:tarea3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>cc07a392-f2e0-441f-b7dc-de009fb12275.DATABASE:tarea3</OriginalElement>
+          <nodes>
+            <node x="86.50000000000003" y="0.0">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.clientes</node>
+            <node x="139.25" y="386.0">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.comprasarticulos</node>
+            <node x="0.0" y="193.0">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.articulos</node>
+            <node x="253.0" y="166.0">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.compras</node>
+            <node x="365.5" y="13.5">cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.tiendas</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.comprasarticulos" target="cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.articulos">
+              <point x="-45.0" y="-71.5" />
+              <point x="184.25" y="361.0" />
+              <point x="116.5" y="361.0" />
+              <point x="0.0" y="58.0" />
+            </edge>
+            <edge source="cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.compras" target="cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.tiendas">
+              <point x="44.5" y="-85.0" />
+              <point x="386.5" y="141.0" />
+              <point x="468.0" y="141.0" />
+              <point x="0.0" y="44.5" />
+            </edge>
+            <edge source="cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.compras" target="cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.clientes">
+              <point x="-44.5" y="-85.0" />
+              <point x="297.5" y="141.0" />
+              <point x="216.00000000000003" y="141.0" />
+              <point x="0.0" y="58.0" />
+            </edge>
+            <edge source="cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.comprasarticulos" target="cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.compras">
+              <point x="45.0" y="-71.5" />
+              <point x="274.25" y="361.0" />
+              <point x="342.0" y="361.0" />
+              <point x="0.0" y="85.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9435336976320583" x="16.82915057915062" y="269.36293436293437" />
+          <SelectedNodes>
+            <node>cc07a392-f2e0-441f-b7dc-de009fb12275.TABLE:tarea3.public.compras</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cc07a392-f2e0-441f-b7dc-de009fb12275/database/tarea3/access-method/btree">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///699b4415/cc07a392-f2e0-441f-b7dc-de009fb12275/database/tarea3/schema/public/routine/ins_clientes@(integer).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///699b4415/cc07a392-f2e0-441f-b7dc-de009fb12275/database/tarea3/schema/public/routine/ins_articulos@(integer).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///699b4415/cc07a392-f2e0-441f-b7dc-de009fb12275/database/tarea3/schema/public/routine/ins_tiendas@(integer).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///699b4415/cc07a392-f2e0-441f-b7dc-de009fb12275/database/tarea3/schema/public/routine/ins_compras@(integer).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cc07a392-f2e0-441f-b7dc-de009fb12275/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="215" column="21" selection-start-line="215" selection-start-column="21" selection-end-line="215" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_node_II.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
+        <state relative-caret-position="273">
           <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BD_II_PROYECTO_II_centralDB.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="192" column="48" selection-start-line="182" selection-end-line="183" selection-end-column="2" />
         </state>
       </provider>
     </entry>

@@ -181,22 +181,78 @@ SELECT insReservacionN(100000); --INSERTA 'n' CANTIDAD DE RESERVACIONES
 --TODAS LAS CONSULTAS SE REALIZAN DESDE centralDB
 --PARA ESTAS CONSULTAS SOLO SE ESTÁ CONSULTANDO centralDB & nodeII
 
----------------------------------------------------------------------------------------------------------
 --servicios-reservas más caros --idx costo
-select * from dblink('host=localhost user=postgres password=postgres dbname=nodeII',
+select * from dblink('host=localhost user=postgres password=aniram dbname=nodeII',
 		'select s.idServicio, s.nombre, sr.costo from servicios s inner join
-		servicios_reservas sr on s.idServicio=sr.idServicio order by sr.costo desc limit 100') as serviciosCostosII(idServicio int, nombre varchar(20), costo int);
-/*union
+		servicios_reservas sr on s.idServicio=sr.idServicio where sr.costo>=900 order by sr.costo desc limit 100 ') as serviciosCostosII(idServicio int, nombre varchar(20), costo int)
+union
 select * from dblink('host=localhost user=postgres password=aniram dbname=nodeIII',
 		'select s.idServicio, s.nombre, sr.costo from servicios s inner join
-		servicios_reservas sr on s.idServicio=sr.idServicio order by sr.costo desc limit 100') as serviciosCostosIII(idServicio int, nombre varchar(20), costo int);
-*/
+		servicios_reservas sr on s.idServicio=sr.idServicio where sr.costo>=900 order by sr.costo desc limit 100') as serviciosCostosIII(idServicio int, nombre varchar(20), costo int);
+
 ---------------------------------------------------------------------------------------------------------
---servicios que cumplen con el tipo de una preferencia de un usuario x --idx tipo
-select * from dblink('host=localhost user=postgres password=postgres dbname=nodeII',
-		'select s.nombre, s.tipo from servicios s where s.tipo = ''tipo2'' ') as categorizacion(nombre varchar(20), tipo varchar(15)); --asignar para una preferencia de un usuario espec
+--usuarios por tipo de preferencia--idx tipo
+--explain analyze
+
+
+
+--servicios-reservas más caros --idx costo
+-----------------------------------------------------------------------------------------------------------ingresos de cada sede en un tiempo x
+CREATE OR REPLACE FUNCTION servisiosMasCaros() --idx fecha
+AS
+$$
+BEGIN
+
+    select uc.idUsuario, uc.nombre from usuarios uc inner join
+    (select * from dblink('host=localhost user=postgres password=aniram dbname=nodeII',
+            'select * from usuarios u where u.preferencia = ''tipo1'' ') as
+            usr_node(
+            idUsuario int,
+            email varchar(20),
+            psswrd varchar(10),
+            preferencia varchar(15)) limit 200) usr_nodeII on uc.idUsuario=usr_nodeII.idUsuario
+    inner join
+    (select * from dblink('host=localhost user=postgres password=aniram dbname=nodeIII',
+            'select * from usuarios u where u.preferencia = ''tipo1'' ') as
+            usr_node(
+            idUsuario int,
+            email varchar(20),
+            psswrd varchar(10),
+            preferencia varchar(15)) limit 200)usr_nodeIII on uc.idUsuario = usr_nodeIII.idUsuario; --asignar para una preferencia de un usuario espec
+
+END;
+$$
+LANGUAGE plpgsql;
+-----------------------------------------------------------------------------------------------------------ingresos de cada sede en un tiempo x
+
+--usuarios por tipo de preferencia--idx tipo
+--explain analyze
+CREATE OR REPLACE FUNCTION usuariosPorPreferencia() --idx fecha
+AS
+$$
+BEGIN
+    select uc.idUsuario, uc.nombre from usuarios uc inner join
+    (select * from dblink('host=localhost user=postgres password=aniram dbname=nodeII',
+            'select * from usuarios u where u.preferencia = ''tipo1'' ') as
+            usr_node(
+            idUsuario int,
+            email varchar(20),
+            psswrd varchar(10),
+            preferencia varchar(15)) limit 200) usr_nodeII on uc.idUsuario=usr_nodeII.idUsuario
+    inner join
+    (select * from dblink('host=localhost user=postgres password=aniram dbname=nodeIII',
+            'select * from usuarios u where u.preferencia = ''tipo1'' ') as
+            usr_node(
+            idUsuario int,
+            email varchar(20),
+            psswrd varchar(10),
+            preferencia varchar(15)) limit 200)usr_nodeIII on uc.idUsuario = usr_nodeIII.idUsuario; --asignar para una preferencia de un usuario espec
+
+END;
+$$
+LANGUAGE plpgsql;
 ---------------------------------------------------------------------------------------------------------
---ingresos de cada sede en un tiempo x
+
 CREATE OR REPLACE FUNCTION ingresosSede(p_idSede int, p_fechaA date, p_fechaB date, out result int) --idx fecha
 AS
 $$

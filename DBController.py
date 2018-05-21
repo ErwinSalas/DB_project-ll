@@ -35,6 +35,22 @@ class DBController:
         cur.close()
         return
 
+    #Consulta de usuarios por preferencia
+    def usuariosPorPreferencia(self):
+        cur = self.conn.cursor()
+        cur.execute("select usuariosPorPreferencia()")
+        self.conn.commit()
+        cur.close()
+        return
+
+    # Consulta de usuarios por preferencia
+    def servisiosMasCaros(self):
+        cur = self.conn.cursor()
+        cur.execute("select servisiosMasCaros()")
+        self.conn.commit()
+        cur.close()
+        return
+
 
     def updateReserva(self):
         p_idReserva=random.randint(0, 100)
