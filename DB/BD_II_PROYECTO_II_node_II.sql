@@ -94,7 +94,7 @@ BEGIN
 		p_nombre = 'SERVICIO'||cast(p_idServicio as varchar(10));
 		p_idSede = 2; --cambiar este parámetro en otros nodos
 		p_costo = (SELECT floor (random() * 45000 + 15000)::int);
-		p_img = (SELECT bytea_import('C:\Users\CHRISTIAN\Documents\TEC\2018 I SEM\BASES DE DATOS II\postgresql.png'));
+		p_img = (SELECT bytea_import('/home/erwin-salas/Imágenes'));
 		p_tipo = 'tipo'||(select cast((floor(random() * 3 + 1)::int) as varchar(1))) ;
 		INSERT INTO servicios values(p_idServicio, p_nombre, p_idSede, p_img, p_tipo);
 		p_idServicio = p_idServicio + 1;
@@ -110,7 +110,7 @@ SELECT insServicio(500);
 ----------------------------------USERS FOR nodeII (idSede: 2)-------------------------------------
 --delete from usuarios
 --INSERT INTO usuarios(email, psswrd, preferencia) VALUES ('xxx@xxx.com','123a','tipo1');
-SELECT insUsr(2); -- 10008 mil reg actuales
+SELECT insUsr(10008); -- 10008 mil reg actuales
 --select count(*) from usuarios
 --SELECT pg_size_pretty( pg_total_relation_size('usuarios') );
 -------------------------------------SERVICIOS-RESERVAS--------------------------------------------------------------

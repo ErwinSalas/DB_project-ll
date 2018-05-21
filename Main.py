@@ -14,16 +14,24 @@ def indexPage():
     return render_template('index.html')
 
 
+@app.route('/pruebas')
+def test():
+    conection = DBController.DBController('centralDB', 'postgres', 'aniram', 'localhost')
+    conection.servisiosMasCaros()
+
+
+
+
 
 @app.route('/test/configs', methods=['POST'])
 def getTestConfigs():
     connections = int(request.form['connections'])
     time = int(request.form['time'])
-    operations = request.form['operation_number']
-    conection = DBController.DBController('nodeIII', 'postgres', 'password', 'localhost')
+    operations = int(request.form['operation_number'])
+    conection = DBController.DBController('centralDB', 'postgres', 'aniram', 'localhost')
     ob = Objects.Configs(connections,time ,operations)
     conection.connection(ob)
-    return "listo"
+    return render_template('test_result.html', results=conection.connection(ob))
 
 
 if __name__ == '__main__':

@@ -13,8 +13,12 @@ class User:
         self.apellido2 = apellido2
 
 class TestResult:
-    def __init__(self, id, threadConection, operation, time):
+    def __init__(self, id, threadConection, operation, hasIndex, time, centralSize, nodeiiSize, nodeiiiSize):
         self.id = id
-        self.time = time
-        self.operation = operation
         self.threadConection = threadConection
+        self.operation = operation
+        self.hasIndex = hasIndex
+        self.time = time
+        self.centralSize = centralSize
+        self.nodeiiSize = nodeiiSize
+        self.nodeiiiSize = nodeiiiSize
